@@ -1,67 +1,67 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import Typewriter from "typewriter-effect";
 import { aboutData } from "@/lib/siteData";
+import Image from "next/image";
+// import { useEffect, useState } from "react";
+import Typewriter from "typewriter-effect";
 
-interface Counters {
-  [key: string]: number;
-  yearsOfExperience: number;
-  hoursOfWorking: number;
-  projectsDone: number;
-}
+// interface Counters {
+//   [key: string]: number;
+//   yearsOfExperience: number;
+//   hoursOfWorking: number;
+//   projectsDone: number;
+// }
 
 const About = () => {
-  const initialCounters = aboutData.skills.reduce((obj, skill) => {
-    obj[String(skill.id)] = 0;
-    return obj;
-  }, {} as Counters);
+//   const initialCounters = aboutData.skills.reduce((obj, skill) => {
+//     obj[String(skill.id)] = 0;
+//     return obj;
+//   }, {} as Counters);
 
-  const [counters, setCounters] = useState<Counters>({
-    ...initialCounters,
-    yearsOfExperience: 0,
-    hoursOfWorking: 0,
-    projectsDone: 0,
-  });
+//   const [counters, setCounters] = useState<Counters>({
+//     ...initialCounters,
+//     yearsOfExperience: 0,
+//     hoursOfWorking: 0,
+//     projectsDone: 0,
+//   });
 
   // Convert all string values to numbers and ensure string keys
-  const targetCounters: Counters = {
-    ...aboutData.skills.reduce((obj, skill) => {
-      obj[String(skill.id)] = parseInt(skill.percent, 10);
-      return obj;
-    }, {} as Counters),
-    yearsOfExperience: parseInt(aboutData.mainData.yearsOfExperience, 10),
-    hoursOfWorking: parseInt(aboutData.mainData.hoursOfWorking, 10),
-    projectsDone: parseInt(aboutData.mainData.projectsDone, 10),
-  };
+//   const targetCounters: Counters = {
+//     ...aboutData.skills.reduce((obj, skill) => {
+//       obj[String(skill.id)] = parseInt(skill.percent, 10);
+//       return obj;
+//     }, {} as Counters),
+//     yearsOfExperience: parseInt(aboutData.mainData.yearsOfExperience, 10),
+//     hoursOfWorking: parseInt(aboutData.mainData.hoursOfWorking, 10),
+//     projectsDone: parseInt(aboutData.mainData.projectsDone, 10),
+//   };
 
-  useEffect(() => {
-    const animateCounters = () => {
-      const duration = 2400;
-      const interval = 50;
+//   useEffect(() => {
+//     const animateCounters = () => {
+//       const duration = 2400;
+//       const interval = 50;
 
-      Object.keys(targetCounters).forEach((key) => {
-        const targetValue = targetCounters[key];
-        const increment = (targetValue / duration) * interval;
+//       Object.keys(targetCounters).forEach((key) => {
+//         const targetValue = targetCounters[key];
+//         const increment = (targetValue / duration) * interval;
 
-        let current = 0;
-        const intervalId = setInterval(() => {
-          current += increment;
-          setCounters((prevCounters) => ({
-            ...prevCounters,
-            [key]: Math.min(Math.ceil(current), targetValue),
-          }));
+//         let current = 0;
+//         const intervalId = setInterval(() => {
+//           current += increment;
+//           setCounters((prevCounters) => ({
+//             ...prevCounters,
+//             [key]: Math.min(Math.ceil(current), targetValue),
+//           }));
 
-          if (current >= targetValue) {
-            clearInterval(intervalId);
-          }
-        }, interval);
-      });
-    };
+//           if (current >= targetValue) {
+//             clearInterval(intervalId);
+//           }
+//         }, interval);
+//       });
+//     };
 
-    animateCounters();
-  }, []);
+//     animateCounters();
+//   }, []);
 
   return (
     <div
