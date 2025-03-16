@@ -65,7 +65,7 @@ export const aboutData = {
     yearsOfExperience: "3",
     hoursOfWorking: "20",
     projectsDone: "90",
-    typewriter: ["Hi There!", "I'm Rilwan"],
+    typewriter: ["Hi There!👋", "I'm Rilwan", "Web Content Editor", "& Email Developer", "Thank you for stopping by 🫡"],
   },
   skills: [
     {
