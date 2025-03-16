@@ -34,7 +34,7 @@ const Header: React.FC = () => {
         setTheme(theme === 'dark' ? 'light' : 'dark');
     };
 
-    const currentYear = new Date().getFullYear();
+    // const currentYear = new Date().getFullYear();
 
     return (
         <div>
