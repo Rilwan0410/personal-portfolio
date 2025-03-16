@@ -2,10 +2,8 @@
 
 import { contactData } from "@/lib/siteData";
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
 
 const Contact = () => {
-  const router = useRouter();
   const [formData, setFormData] = useState({
     name: "",
     email: "",

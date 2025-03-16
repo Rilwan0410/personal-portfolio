@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { headerData } from '@/lib/siteData';
 import { useTheme } from 'next-themes';
 
