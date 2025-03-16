@@ -61,7 +61,7 @@ export const aboutData = {
     heroAvatar: HeroAvatar,
     jobTitle: "Web Content Editor & Email Developer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "My name is Rilwan and I am a Content Creator & Email Developer based in Pembroke Pines FL. My goal to is to utilize my skillset to bring as much value as I can to a company. I am very eager and driven to get started, and would love to connect!",
     yearsOfExperience: "3",
     hoursOfWorking: "20",
     projectsDone: "90",
