@@ -70,13 +70,15 @@ const About = () => {
     >
       <div className="lg:flex lg:space-x-10">
         <div className="relative h-fit mb-">
-          <Image
+          {/* <Image
             src={aboutData.mainData.heroAvatar}
             alt="hero-avatar"
             placeholder="blur"
             className="min-w-52 min-h-52 max-w-64 max-h-64 rounded-full"
-          />
-          <div className="absolute bottom-4 left-2 bg-black/30 dark:bg-black/60 px-4 py-2 rounded-full shadow-avatarText backdrop-blur-[5px] text-white font-mono font-normal uppercase text-sm tracking-wider">
+          /> */}
+
+{/* Added w-[200px] since I am not using image. If you add image make sure to take out w-[200px] from the typewriter div */}
+          <div className="absolute bottom-4 left-2 bg-black/30 dark:bg-black/60 px-4 py-2 rounded-full shadow-avatarText backdrop-blur-[5px] text-white font-mono font-normal uppercase text-sm tracking-wider w-[200px]">
             <Typewriter
               options={{
                 strings: aboutData.mainData.typewriter,

@@ -129,8 +129,7 @@ export const portfolioData = {
   mainData: {
     title: "Portfolio",
     title2: "My Latest Works",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+    description: "",
   },
   filterCategories: ["Show All", "First", "Second"],
   projects: [
@@ -334,8 +333,7 @@ export const resumeData = {
   mainData: {
     title: "Resume",
     title2: "Education & Experience",
-    description:
-      ""
+    description: "",
   },
   education: [
     {
@@ -343,16 +341,16 @@ export const resumeData = {
       degree: "Full Stack Developer Certification",
       university: "University of Miami Bootcamp",
     },
-//     {
-//       date: "2018 - 2020",
-//       degree: "Master Degree of Design",
-//       university: "@University of IT",
-//     },
-//     {
-//       date: "2014 - 2018",
-//       degree: "Bachelor Degree of Design",
-//       university: "@University of Design",
-//     },
+    //     {
+    //       date: "2018 - 2020",
+    //       degree: "Master Degree of Design",
+    //       university: "@University of IT",
+    //     },
+    //     {
+    //       date: "2014 - 2018",
+    //       degree: "Bachelor Degree of Design",
+    //       university: "@University of Design",
+    //     },
   ],
   experience: [
     {
