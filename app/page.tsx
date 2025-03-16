@@ -1,13 +1,8 @@
 import About from "@/components/About";
-import Blog from "@/components/Blog";
-import Clients from "@/components/Clients";
 import Contact from "@/components/Connect";
-import Map from "@/components/Map";
 import Navigation from "@/components/Navigation";
 import Portfolio from "@/components/Portfolio";
 import Resume from "@/components/Resume";
-import Services from "@/components/Services";
-import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
     return (
