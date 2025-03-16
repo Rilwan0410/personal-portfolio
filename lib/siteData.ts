@@ -124,7 +124,7 @@ export const aboutData = {
     },
   ],
 };
-
+ 
 export const portfolioData = {
   mainData: {
     title: "Portfolio",
