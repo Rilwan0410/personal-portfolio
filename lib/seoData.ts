@@ -13,7 +13,7 @@ const siteUrl = 'http://localhost:3000';
 
 export const seoData: PageSEO = {
     home: {
-        title: 'Gray - Tailwind Personal vCard/Portfolio Template',
+        title: 'Rilwan Etti',
         description: 'Tailwind Personal vCard/Portfolio Template',
         keywords: ['Gray', 'vCard', 'portfolio', 'Personal vCard/Portfolio'],
         canonicalUrl: siteUrl,
