@@ -78,7 +78,7 @@ const About = () => {
           /> */}
 
 {/* Added w-[200px] since I am not using image. If you add image make sure to take out w-[200px] from the typewriter div */}
-          {/* <div className="absolute bottom-4 left-2 bg-black/30 dark:bg-black/60 px-4 py-2 rounded-full shadow-avatarText backdrop-blur-[5px] text-white font-mono font-normal uppercase text-sm tracking-wider w-[150px]">
+          <div className="absolute bottom-4 left-2 bg-black/30 dark:bg-black/60 px-4 py-2 rounded-full shadow-avatarText backdrop-blur-[5px] text-white font-mono font-normal uppercase text-sm tracking-wider w-[150px]">
             <Typewriter
               options={{
                 strings: aboutData.mainData.typewriter,
@@ -89,7 +89,7 @@ const About = () => {
                 deleteSpeed: 15,
               }}
             />
-          </div> */}
+          </div>
         </div>
         <div>
           <h6
