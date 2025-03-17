@@ -21,14 +21,14 @@ export const seoData: PageSEO = {
 };
 
 export const getPortfolioProjectSEO = (id: string, title: string, excerpt: string): SEOMetadata => ({
-    title: `${title} | Portfolio | Gray`,
+    title: `${title} | Portfolio`,
     description: excerpt,
     keywords: ['portfolio', 'project', title.toLowerCase()],
     canonicalUrl: `${siteUrl}/portfolio/${id}`,
 });
 
 export const getBlogPostSEO = (slug: string, title: string, excerpt: string): SEOMetadata => ({
-    title: `${title} | Blog | Gray`,
+    title: `${title} | Blog`,
     description: excerpt,
     keywords: ['blog', 'article', ...title.toLowerCase().split(' ')],
     canonicalUrl: `${siteUrl}/blog/${slug}`,
