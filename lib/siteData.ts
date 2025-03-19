@@ -5,6 +5,9 @@ import TestimonialAvatar from "@/public/images/testimonial-avatar.jpg";
 import Logo from "@/public/images/client-logo.png";
 import PostImage from "@/public/images/blog-img.png";
 import Image from "@/public/images/blog-single.png";
+import HBOClone from "@/public/images/hbo-clone.png";
+import VGDA from "@/public/images/video-game-discovery-app.png";
+import NSS from "@/public/images/new-ss.png";
 
 export const headerData = {
   mainData: {
@@ -59,9 +62,9 @@ export const aboutData = {
     title: "About Me",
     title2: "About Me",
     heroAvatar: HeroAvatar,
-    jobTitle: "Web Content Editor & Email Developer",
+    jobTitle: "Full Stack Web Developer",
     description:
-      "My name is Rilwan and I am a Content Creator & Email Developer based in Pembroke Pines FL. My goal to is to utilize my skillset to bring as much value as I can to a company. I am very eager and driven to get started, and would love to connect!",
+      "My name is Rilwan and I am a Full Stack Web Developer based in Pembroke Pines FL. My goal to is to utilize my skillset to bring as much value as I can to a company. I am very eager and driven to get started, and would love to connect!",
     yearsOfExperience: "3",
     hoursOfWorking: "20",
     projectsDone: "90",
@@ -70,61 +73,85 @@ export const aboutData = {
   skills: [
     {
       id: 1,
-      name: "Shopify",
+      name: "HTML",
       percent: "",
       icon: "bi bi-file-earmark-code-fill",
     },
     {
-      id: 4,
-      name: "HubSpot",
-      percent: "",
-      icon: "bi bi-file-earmark-code-fill",
-    },
-    {
-      id: 5,
-      name: "Wordpress",
-      percent: "",
-      icon: "bi bi-wordpress",
-    },
-    {
-      id: 6,
-      name: "Contentful",
+      id: 2,
+      name: "CSS",
       percent: "",
       icon: "bi bi-file-earmark-code-fill",
     },
     {
       id: 3,
-      name: "SEO",
-      percent: "",
-      icon: "bi bi-search",
-    },
-    {
-      id: 7,
-      name: "HTML",
-      percent: "",
-      icon: "bi bi-filetype-html",
-    },
-    {
-      id: 8,
-      name: "CSS",
-      percent: "",
-      icon: "bi bi-filetype-css",
-    },
-    {
-      id: 9,
       name: "JavaScript",
       percent: "",
       icon: "bi bi-filetype-js",
     },
     {
-      id: 2,
-      name: "Tailwind",
+      id: 4,
+      name: "React",
+      percent: "",
+      icon: "bi bi-filetype-jsx",
+    },
+    {
+      id: 5,
+      name: "Redux",
+      percent: "",
+      icon: "bi bi-search",
+    },
+    {
+      id: 6,
+      name: "Next JS",
+      percent: "",
+      icon: "bi bi-filetype-jsx",
+    },
+    {
+      id: 7,
+      name: "Node JS",
+      percent: "",
+      icon: "bi bi-filetype-js",
+    },
+    {
+      id: 8,
+      name: "Express",
+      percent: "",
+      icon: "bi bi-filetype-js",
+    },
+    {
+      id: 9,
+      name: "Git",
+      percent: "",
+      icon: "bi bi-git",
+    },
+    {
+      id: 10,
+      name: "Tailwind CSS",
       percent: "",
       icon: "bi bi-code-slash",
     },
+    {
+      id: 11,
+      name: "MySQL",
+      percent: "",
+      icon: "bi bi-filetype-sql",
+    },
+    {
+      id: 12,
+      name: "Mongo DB",
+      percent: "",
+      icon: "bi bi-database",
+    },
+    {
+      id: 13,
+      name: "Data Structures & Algorithms",
+      percent: "",
+      icon: "bi bi-bezier2",
+    },
   ],
 };
- 
+
 export const portfolioData = {
   mainData: {
     title: "Portfolio",
@@ -134,19 +161,19 @@ export const portfolioData = {
   filterCategories: ["Show All", "First", "Second"],
   projects: [
     {
-      projectTitle: "Project Title 1",
+      projectTitle: "Video Game Discovery App",
       slug: "first",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This is an Game application built using React, React Router, using Chakra UI and Tailwind CSS. This app allows you to look and find valuable information about any game you can think about. Using the Rawg API database, there are over 800,000 video games that you can filter through and find out information about multiple games as well as the platforms they are available for and more.",
       keywords: "key1, key2, key3",
       category: "First",
       services: "Branding, Photoshoot",
-      client: "FlaTheme",
-      duration: "104 hours",
+      client: "https://video-game-discovery-app-nu.vercel.app/",
+      duration: "https://github.com/Rilwan0410/video-game-discovery-app",
       mainImage: PortfolioImg,
       images: [
         {
-          image: Image,
+          image: VGDA,
           alt: "Image Alt",
         },
       ],
@@ -159,13 +186,14 @@ export const portfolioData = {
         url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
       },
       categories: [
-        { name: "Category" },
-        { name: "Category" },
-        { name: "Category" },
+        { name: "React" },
+        { name: "React Router" },
+        { name: "Chakra UI" },
+        { name: "Tailwind CSS" },
       ],
     },
     {
-      projectTitle: "Project Title 2",
+      projectTitle: "Issue Tracker",
       slug: "second",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -196,7 +224,7 @@ export const portfolioData = {
       ],
     },
     {
-      projectTitle: "Project Title 3",
+      projectTitle: "HBO Clone",
       slug: "first-1",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -227,7 +255,7 @@ export const portfolioData = {
       ],
     },
     {
-      projectTitle: "Project Title 4",
+      projectTitle: "CLI Employee Tracker",
       slug: "second-1",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",

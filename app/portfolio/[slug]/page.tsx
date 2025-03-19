@@ -55,15 +55,15 @@ export default async function PortfolioProject({ params, }: { params: Promise<{ 
                     <div className="section bg-white dark:bg-boxDark rounded-lg px-6 py-8 md:px-8 md:py-10 lg:p-12 shadow-sectionBoxShadow hover:shadow-sectionBoxShadowHover transition ease-out duration-[160ms]">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <div>
-                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Client:</h6>
+                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Live Website</h6>
                                 <p className="text-pColor dark:text-white/70">{project.client}</p>
                             </div>
-                            <div>
-                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Services:</h6>
+                            {/* <div>
+                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Git Repository:</h6>
                                 <p className="text-pColor dark:text-white/70">{project.services}</p>
-                            </div>
+                            </div> */}
                             <div>
-                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Duration:</h6>
+                                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Git Repo</h6>
                                 <p className="text-pColor dark:text-white/70">{project.duration}</p>
                             </div>
                         </div>
