@@ -7,7 +7,9 @@ import PostImage from "@/public/images/blog-img.png";
 import Image from "@/public/images/blog-single.png";
 // import HBOClone from "@/public/images/hbo-clone.png";
 import VGDA from "@/public/images/video-game-discovery-app.png";
-// import NSS from "@/public/images/new-ss.png";
+import ITImg from "@/public/images/issueTrackerimg.png";
+import issueTrackerImg from "@/public/images/issue-tracker.png";
+import vdsar from "@/public/images/vdsar.png";
 
 export const headerData = {
   mainData: {
@@ -64,7 +66,7 @@ export const aboutData = {
     heroAvatar: HeroAvatar,
     jobTitle: "Full Stack Web Developer",
     description:
-      "My name is Rilwan and I am a Full Stack Web Developer based in Pembroke Pines FL. My goal to is to utilize my skillset to bring as much value as I can to a company. I am very eager and driven to get started, and would love to connect!",
+      "My name is Rilwan Etti and I am a Full Stack Web Developer based in Pembroke Pines Florida. My passion for Web Development sparked in 2022 when I took a leap and decided to step into this unfamiliar field that I had no prior skillset in. Although I had no prior experience with coding or anything really computer related, I always loved the thought of being handy with computers. As I started to grow in my understanding for software engineering, my passion and interest for it grew much larger. I genuinely love the problem solving aspect of this career field, and the fact that you have to keep learning and staying sharp in order to thrive and continue to grow. I have graduated from a Full-Stack Bootcamp From the University Of Miami.",
     yearsOfExperience: "3",
     hoursOfWorking: "20",
     projectsDone: "90",
@@ -170,7 +172,7 @@ export const portfolioData = {
       services: "Branding, Photoshoot",
       client: "https://video-game-discovery-app-nu.vercel.app/",
       duration: "https://github.com/Rilwan0410/video-game-discovery-app",
-      mainImage: PortfolioImg,
+      mainImage: vdsar,
       images: [
         {
           image: VGDA,
@@ -196,16 +198,16 @@ export const portfolioData = {
       projectTitle: "Issue Tracker",
       slug: "second",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This is an issue tracker application that allows you to Create, Edit, Update and Delete issues. This application was built from using NextJS, NextAuth for authentication, Prisma as the ORM, MySQL for the database, tailwind for the styling, as well as Radix for the front-end component library. This app connects to an external database and saves user information, regarding issues, and their login information.",
       keywords: "key1, key2, key3",
       category: "Second",
       services: "Branding, Photoshoot",
-      client: "FlaTheme",
-      duration: "104 hours",
-      mainImage: PortfolioImg,
+      client: "https://issue-tracker-five-iota.vercel.app/",
+      duration: "https://github.com/Rilwan0410/issue_tracker",
+      mainImage: ITImg,
       images: [
         {
-          image: Image,
+          image: issueTrackerImg,
           alt: "Image Alt",
         },
       ],
@@ -360,7 +362,7 @@ export const testimonialData = {
 export const resumeData = {
   mainData: {
     title: "Resume",
-    title2: "Education & Experience",
+    title2: "Relevant Education & Experience",
     description: "",
   },
   education: [
