@@ -220,9 +220,12 @@ export const portfolioData = {
         url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
       },
       categories: [
-        { name: "Category" },
-        { name: "Category" },
-        { name: "Category" },
+        { name: "Next JS" },
+        { name: "Radix UI" },
+        { name: "Prisma" },
+        { name: "Tailwind CSS" },
+        { name: "MySQL" },
+        { name: "CRUD" },
       ],
     },
     {
