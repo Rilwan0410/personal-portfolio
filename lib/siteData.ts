@@ -7,7 +7,7 @@ import PostImage from "@/public/images/blog-img.png";
 import Image from "@/public/images/blog-single.png";
 // import HBOClone from "@/public/images/hbo-clone.png";
 import VGDA from "@/public/images/video-game-discovery-app.png";
-import NSS from "@/public/images/new-ss.png";
+// import NSS from "@/public/images/new-ss.png";
 
 export const headerData = {
   mainData: {
