@@ -5,7 +5,7 @@ import TestimonialAvatar from "@/public/images/testimonial-avatar.jpg";
 import Logo from "@/public/images/client-logo.png";
 import PostImage from "@/public/images/blog-img.png";
 import Image from "@/public/images/blog-single.png";
-import HBOClone from "@/public/images/hbo-clone.png";
+// import HBOClone from "@/public/images/hbo-clone.png";
 import VGDA from "@/public/images/video-game-discovery-app.png";
 import NSS from "@/public/images/new-ss.png";
 
