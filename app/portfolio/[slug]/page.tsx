@@ -69,7 +69,7 @@ export default async function PortfolioProject({
                   Live Website:
                 </h6>
                 <p className="text-pColor dark:text-white/70">
-                  <a href="https://video-game-discovery-app-nu.vercel.app/" target="_blank">{project.client}</a>
+                  <a href={project.client} target="_blank">{project.client}</a>
                 </p>
               </div>
               {/* <div>
@@ -81,7 +81,7 @@ export default async function PortfolioProject({
                   Git Repo:
                 </h6>
                 <p className="text-pColor dark:text-white/70">
-                  <a href="https://github.com/Rilwan0410/video-game-discovery-app" target="_blank">{project.duration}</a>
+                  <a href={project.duration} target="_blank">{project.duration}</a>
                 </p>
               </div>
             </div>
