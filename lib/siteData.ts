@@ -1,5 +1,5 @@
 import HeroAvatar from "@/public/images/hero-avatar.jpg";
-import PortfolioImg from "@/public/images/portfolio-img.png";
+// import PortfolioImg from "@/public/images/portfolio-img.png";
 // import MainImage from "@/public/images/portfolio-single.png";
 import TestimonialAvatar from "@/public/images/testimonial-avatar.jpg";
 import Logo from "@/public/images/client-logo.png";
