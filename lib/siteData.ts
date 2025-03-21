@@ -166,7 +166,7 @@ export const portfolioData = {
   projects: [
     {
       projectTitle: "Video Game Discovery App",
-      slug: "first",
+      slug: "video-game-discovery-app",
       description:
         "This is an Game application built using React, React Router, using Chakra UI and Tailwind CSS. This app allows you to look and find valuable information about any game you can think about. Using the Rawg API database, there are over 800,000 video games that you can filter through and find out information about multiple games as well as the platforms they are available for and more.",
       keywords: "key1, key2, key3",
@@ -198,7 +198,7 @@ export const portfolioData = {
     },
     {
       projectTitle: "Issue Tracker",
-      slug: "second",
+      slug: "issue-tracker",
       description:
         "This is an issue tracker application that allows you to Create, Edit, Update and Delete issues. This application was built from using NextJS, NextAuth for authentication, Prisma as the ORM, MySQL for the database, tailwind for the styling, as well as Radix for the front-end component library. This app connects to an external database and saves user information, regarding issues, and their login information.",
       keywords: "key1, key2, key3",
@@ -232,9 +232,9 @@ export const portfolioData = {
     },
     {
       projectTitle: "HBO Clone",
-      slug: "first-1",
+      slug: "hbo-clone",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This is clone of the popular App HBO, built using NextJS, React and Tailwind CSS. This is one of the first projects I built using NextJS and it taught me a lot about the framework. This application allows you to look up movies and access a thirdy-party API from the movieDB. There are countless movies to search from, and with each movie search, you will have access to valuable information such, as the cast of the movie, the starring roles, of the movies and more",
       keywords: "key1, key2, key3",
       category: "First",
       services: "Branding, Photoshoot",
@@ -256,16 +256,16 @@ export const portfolioData = {
         url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
       },
       categories: [
-        { name: "Category" },
-        { name: "Category" },
-        { name: "Category" },
+        { name: "Next JS" },
+        { name: "React" },
+        { name: "Tailwind CSS" },
       ],
     },
     {
       projectTitle: "CLI Employee Tracker",
-      slug: "second-1",
+      slug: "cli-employee-tracker",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This is a Node JS application that allows you to create a database for employee information regarding the the name of the employee, their managers, the departments, salary and more. This app was created using inquirer to promot questions in the cli, as well as MySQL to query to a database to save and persist all of the data.",
       keywords: "key1, key2, key3",
       category: "Second",
       services: "Branding, Photoshoot",
@@ -287,9 +287,10 @@ export const portfolioData = {
         url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
       },
       categories: [
-        { name: "Category" },
-        { name: "Category" },
-        { name: "Category" },
+        { name: "JavaScript" },
+        { name: "Node JS" },
+        { name: "MySQL" },
+        { name: "CRUD" },
       ],
     },
   ],
