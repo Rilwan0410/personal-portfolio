@@ -16,6 +16,8 @@ import issueTrackerImg from "@/public/images/issue-tracker.png";
 import vdsar from "@/public/images/vdsar.png";
 import vgda3 from "@/public/images/vgda3.png";
 import vgda4 from "@/public/images/vgda4.png";
+import cet from "@/public/images/cli-employee-tracker2.png";
+import cet2 from "@/public/images/cli-employee-tracker.png";
 
 
 export const headerData = {
@@ -218,14 +220,14 @@ export const portfolioData = {
           alt: "Image Alt",
         },
       ],
-      imagesLightbox: {
-        image: Image,
-        alt: "Image Alt",
-      },
-      video: {
-        thumbnail: Image,
-        url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
-      },
+      // imagesLightbox: {
+      //   image: Image,
+      //   alt: "Image Alt",
+      // },
+      // video: {
+      //   thumbnail: Image,
+      //   url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
+      // },
       categories: [
         { name: "Next JS" },
         { name: "Radix UI" },
@@ -276,20 +278,20 @@ export const portfolioData = {
       services: "Branding, Photoshoot",
       // client: "https://re-hboclone.netlify.app/create",
       duration: "https://github.com/Rilwan0410/cli-employee-tracker",
-      mainImage: PortfolioImg,
+      mainImage: cet,
       images: [
         {
-          image: Image,
+          image: cet2,
           alt: "Image Alt",
         },
       ],
-      imagesLightbox: {
-        image: Image,
-        alt: "Image Alt",
-      },
+      // imagesLightbox: {
+      //   image: Image,
+      //   alt: "Image Alt",
+      // },
       video: {
-        thumbnail: Image,
-        url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
+        thumbnail: cet2,
+        url: "https://www.youtube.com/watch?v=7HKmDtX5sFw",
       },
       categories: [
         { name: "JavaScript" },
