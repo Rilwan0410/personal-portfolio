@@ -13,55 +13,55 @@ import Typewriter from "typewriter-effect";
 // }
 
 const About = () => {
-//   const initialCounters = aboutData.skills.reduce((obj, skill) => {
-//     obj[String(skill.id)] = 0;
-//     return obj;
-//   }, {} as Counters);
+  //   const initialCounters = aboutData.skills.reduce((obj, skill) => {
+  //     obj[String(skill.id)] = 0;
+  //     return obj;
+  //   }, {} as Counters);
 
-//   const [counters, setCounters] = useState<Counters>({
-//     ...initialCounters,
-//     yearsOfExperience: 0,
-//     hoursOfWorking: 0,
-//     projectsDone: 0,
-//   });
+  //   const [counters, setCounters] = useState<Counters>({
+  //     ...initialCounters,
+  //     yearsOfExperience: 0,
+  //     hoursOfWorking: 0,
+  //     projectsDone: 0,
+  //   });
 
   // Convert all string values to numbers and ensure string keys
-//   const targetCounters: Counters = {
-//     ...aboutData.skills.reduce((obj, skill) => {
-//       obj[String(skill.id)] = parseInt(skill.percent, 10);
-//       return obj;
-//     }, {} as Counters),
-//     yearsOfExperience: parseInt(aboutData.mainData.yearsOfExperience, 10),
-//     hoursOfWorking: parseInt(aboutData.mainData.hoursOfWorking, 10),
-//     projectsDone: parseInt(aboutData.mainData.projectsDone, 10),
-//   };
+  //   const targetCounters: Counters = {
+  //     ...aboutData.skills.reduce((obj, skill) => {
+  //       obj[String(skill.id)] = parseInt(skill.percent, 10);
+  //       return obj;
+  //     }, {} as Counters),
+  //     yearsOfExperience: parseInt(aboutData.mainData.yearsOfExperience, 10),
+  //     hoursOfWorking: parseInt(aboutData.mainData.hoursOfWorking, 10),
+  //     projectsDone: parseInt(aboutData.mainData.projectsDone, 10),
+  //   };
 
-//   useEffect(() => {
-//     const animateCounters = () => {
-//       const duration = 2400;
-//       const interval = 50;
+  //   useEffect(() => {
+  //     const animateCounters = () => {
+  //       const duration = 2400;
+  //       const interval = 50;
 
-//       Object.keys(targetCounters).forEach((key) => {
-//         const targetValue = targetCounters[key];
-//         const increment = (targetValue / duration) * interval;
+  //       Object.keys(targetCounters).forEach((key) => {
+  //         const targetValue = targetCounters[key];
+  //         const increment = (targetValue / duration) * interval;
 
-//         let current = 0;
-//         const intervalId = setInterval(() => {
-//           current += increment;
-//           setCounters((prevCounters) => ({
-//             ...prevCounters,
-//             [key]: Math.min(Math.ceil(current), targetValue),
-//           }));
+  //         let current = 0;
+  //         const intervalId = setInterval(() => {
+  //           current += increment;
+  //           setCounters((prevCounters) => ({
+  //             ...prevCounters,
+  //             [key]: Math.min(Math.ceil(current), targetValue),
+  //           }));
 
-//           if (current >= targetValue) {
-//             clearInterval(intervalId);
-//           }
-//         }, interval);
-//       });
-//     };
+  //           if (current >= targetValue) {
+  //             clearInterval(intervalId);
+  //           }
+  //         }, interval);
+  //       });
+  //     };
 
-//     animateCounters();
-//   }, []);
+  //     animateCounters();
+  //   }, []);
 
   return (
     <div
@@ -77,7 +77,7 @@ const About = () => {
             className="min-w-52 min-h-52 max-w-64 max-h-64 rounded-full"
           /> */}
 
-{/* Added w-[200px] since I am not using image. If you add image make sure to take out w-[200px] from the typewriter div */}
+          {/* Added w-[200px] since I am not using image. If you add image make sure to take out w-[200px] from the typewriter div */}
           <div className="absolute bottom-4 left-2 bg-black/30 dark:bg-black/60 px-4 py-2 rounded-full shadow-avatarText backdrop-blur-[5px] text-white font-mono font-normal uppercase text-sm tracking-wider w-[150px]">
             <Typewriter
               options={{
@@ -110,7 +110,7 @@ const About = () => {
                 key={index}
                 className="list-none inline-block px-4 py-2 me-2 rounded-full border border-black/20 dark:border-white/30 border-dashed text-pColor hover:text-black dark:text-white/70 dark:hover:text-white transition ease-linear duration-100"
               >
-                <i className={`${skill.icon} pe-1`}></i> {skill.name}
+                <i className={`${skill.icon} pr-1`}></i> {skill.name}
                 {/* <div className="inline-block font-mono text-sm">(<span className="counter">{counters[skill.id]}</span>%)</div> */}
               </li>
             ))}

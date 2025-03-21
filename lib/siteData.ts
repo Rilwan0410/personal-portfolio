@@ -6,12 +6,17 @@ import Logo from "@/public/images/client-logo.png";
 import PostImage from "@/public/images/blog-img.png";
 import Image from "@/public/images/blog-single.png";
 // import HBOClone from "@/public/images/hbo-clone.png";
+import hboclone540 from "@/public/images/hboclone540.png"
+import hboclone904 from "@/public/images/hboclone904.png"
+import hboclone9042 from "@/public/images/hboclone904-2.png"
+import hboclone9043 from "@/public/images/hboclone904-3.png"
 import VGDA from "@/public/images/video-game-discovery-app.png";
 import ITImg from "@/public/images/issueTrackerimg.png";
 import issueTrackerImg from "@/public/images/issue-tracker.png";
 import vdsar from "@/public/images/vdsar.png";
 import vgda3 from "@/public/images/vgda3.png";
 import vgda4 from "@/public/images/vgda4.png";
+
 
 export const headerData = {
   mainData: {
@@ -79,25 +84,25 @@ export const aboutData = {
       id: 1,
       name: "HTML",
       percent: "",
-      icon: "bi bi-file-earmark-code-fill",
+      icon: "fa-brands fa-html5",
     },
     {
       id: 2,
       name: "CSS",
       percent: "",
-      icon: "bi bi-file-earmark-code-fill",
+      icon: "fa-brands fa-css3-alt",
     },
     {
       id: 3,
       name: "JavaScript",
       percent: "",
-      icon: "bi bi-filetype-js",
+      icon: "fa-brands fa-js",
     },
     {
       id: 4,
       name: "React",
       percent: "",
-      icon: "bi bi-filetype-jsx",
+      icon: "fa-brands fa-react",
     },
     {
       id: 5,
@@ -115,7 +120,7 @@ export const aboutData = {
       id: 7,
       name: "Node JS",
       percent: "",
-      icon: "bi bi-filetype-js",
+      icon: "fa-brands fa-node",
     },
     {
       id: 8,
@@ -240,20 +245,20 @@ export const portfolioData = {
       services: "Branding, Photoshoot",
       client: "https://re-hboclone.netlify.app/create",
       duration: "https://github.com/Rilwan0410/HBO_CLONE",
-      mainImage: PortfolioImg,
+      mainImage: hboclone540,
       images: [
         {
-          image: Image,
+          image: hboclone904,
           alt: "Image Alt",
         },
       ],
       imagesLightbox: {
-        image: Image,
+        image: hboclone9042,
         alt: "Image Alt",
       },
       video: {
-        thumbnail: Image,
-        url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
+        thumbnail: hboclone9043,
+        url: "https://www.youtube.com/watch?v=7cJN5vFju8Y",
       },
       categories: [
         { name: "Next JS" },
