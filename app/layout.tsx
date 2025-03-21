@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     title: seoData.home.title,
     description: seoData.home.description,
   },
+
   keywords: seoData.home.keywords,
 };
 
@@ -27,29 +28,32 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <>
+     
+      <html lang="en">
+        <body className="overflow-x-hidden bg-bodyBg font-opensans dark:bg-black">
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <div className="container max-w-[1320px] mx-auto px-5 xl:px-3">
+              {/* Header */}
+              <Header />
+
+              {children}
+            </div>
+
+            <BackgroundDecorationalLines />
+          </ThemeProvider>
+        </body>
+      </html>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        precedence="default"
       ></link>
-
-      <body className="overflow-x-hidden bg-bodyBg font-opensans dark:bg-black">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="container max-w-[1320px] mx-auto px-5 xl:px-3">
-            {/* Header */}
-            <Header />
-
-            {children}
-          </div>
-
-          <BackgroundDecorationalLines />
-        </ThemeProvider>
-      </body>
-    </html>
+    </>
   );
 }
