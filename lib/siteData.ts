@@ -238,8 +238,8 @@ export const portfolioData = {
       keywords: "key1, key2, key3",
       category: "First",
       services: "Branding, Photoshoot",
-      client: "FlaTheme",
-      duration: "104 hours",
+      client: "https://re-hboclone.netlify.app/create",
+      duration: "https://github.com/Rilwan0410/HBO_CLONE",
       mainImage: PortfolioImg,
       images: [
         {
@@ -269,8 +269,8 @@ export const portfolioData = {
       keywords: "key1, key2, key3",
       category: "Second",
       services: "Branding, Photoshoot",
-      client: "FlaTheme",
-      duration: "104 hours",
+      // client: "https://re-hboclone.netlify.app/create",
+      duration: "https://github.com/Rilwan0410/cli-employee-tracker",
       mainImage: PortfolioImg,
       images: [
         {

@@ -64,14 +64,18 @@ export default async function PortfolioProject({
         <div className="lg:w-3/4 space-y-6 pb-12">
           <div className="section bg-white dark:bg-boxDark rounded-lg px-6 py-8 md:px-8 md:py-10 lg:p-12 shadow-sectionBoxShadow hover:shadow-sectionBoxShadowHover transition ease-out duration-[160ms]">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div>
-                <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">
-                  Live Website:
-                </h6>
-                <p className="text-pColor dark:text-white/70">
-                  <a href={project.client} target="_blank">{project.client}</a>
-                </p>
-              </div>
+              {project.client && (
+                <div>
+                  <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">
+                    Live Website:
+                  </h6>
+                  <p className="text-pColor dark:text-white/70">
+                    <a href={project.client} target="_blank">
+                      {project.client}
+                    </a>
+                  </p>
+                </div>
+              )}
               {/* <div>
                                 <h6 className="font-mono font-medium uppercase text-sm tracking-[0.5px] dark:text-white">Git Repository:</h6>
                                 <p className="text-pColor dark:text-white/70">{project.services}</p>
@@ -81,7 +85,9 @@ export default async function PortfolioProject({
                   Git Repo:
                 </h6>
                 <p className="text-pColor dark:text-white/70">
-                  <a href={project.duration} target="_blank">{project.duration}</a>
+                  <a href={project.duration} target="_blank">
+                    {project.duration}
+                  </a>
                 </p>
               </div>
             </div>
