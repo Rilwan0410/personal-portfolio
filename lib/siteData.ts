@@ -10,6 +10,8 @@ import VGDA from "@/public/images/video-game-discovery-app.png";
 import ITImg from "@/public/images/issueTrackerimg.png";
 import issueTrackerImg from "@/public/images/issue-tracker.png";
 import vdsar from "@/public/images/vdsar.png";
+import vgda3 from "@/public/images/vgda3.png";
+import vgda4 from "@/public/images/vgda4.png";
 
 export const headerData = {
   mainData: {
@@ -180,12 +182,12 @@ export const portfolioData = {
         },
       ],
       imagesLightbox: {
-        image: Image,
+        image: vgda3,
         alt: "Image Alt",
       },
       video: {
-        thumbnail: Image,
-        url: "https://www.youtube.com/watch?v=V8yu12uRpBA",
+        thumbnail: vgda4,
+        url: "https://www.youtube.com/watch?v=T4ZC5rwYJ1I",
       },
       categories: [
         { name: "React" },
