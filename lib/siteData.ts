@@ -550,7 +550,7 @@ export const blogData = {
 
 export const contactData = {
   mainData: {
-    title: "Clients",
+    title: "Contact",
     title2: "Get in touch",
     title3: "Let's Connect",
     // description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
@@ -559,7 +559,7 @@ export const contactData = {
     // address: "121 King St, Melbourne VIC 3000",
   },
 };
-
+ 
 export const mapData = {
   mainData: {
     lat: -3.745,
